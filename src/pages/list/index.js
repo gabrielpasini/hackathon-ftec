@@ -39,12 +39,12 @@ const List = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Checkbox {...label} defaultChecked />
-          <span style={{ marginRight: 300 }}>Arroz</span>
+          <span style={{ marginRight: "50%" }}>Arroz</span>
           <span>R$5.99</span>
         </AccordionDetails>
         <AccordionDetails>
           <Checkbox {...label} defaultChecked />
-          <span style={{ marginRight: 300 }}>Feijao</span>
+          <span style={{ marginRight: "50%" }}>Feijao</span>
           <span>R$4.99</span>
         </AccordionDetails>
       </Accordion>
@@ -65,7 +65,7 @@ const List = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Checkbox {...label} defaultChecked />
-          <span style={{ marginRight: 300 }}>Arroz</span>
+          <span style={{ marginRight: "50%" }}>Arroz</span>
           <span>R$5.99</span>
         </AccordionDetails>
       </Accordion>
@@ -86,7 +86,7 @@ const List = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Checkbox {...label} defaultChecked />
-          <span style={{ marginRight: 300 }}>Arroz</span>
+          <span style={{ marginRight: "50%" }}>Arroz</span>
           <span>R$5.99</span>
         </AccordionDetails>
       </Accordion>
@@ -106,14 +106,14 @@ const List = () => {
         </AccordionSummary>
         <AccordionDetails>
           <Checkbox {...label} defaultChecked />
-          <span style={{ marginRight: 300 }}>Arroz</span>
+          <span style={{ marginRight: "50%" }}>Arroz</span>
           <span>R$5.99</span>
         </AccordionDetails>
       </Accordion>
       <Box
         component="form"
         sx={{
-          "& > :not(style)": { m: 1, width: "25ch" },
+          "& > :not(style)": { m: 1, width: "100%" },
         }}
         noValidate
         autoComplete="off"
